@@ -1,0 +1,203 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Romantic Website
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;family=Open+Sans&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+ </head>
+ <body class="bg-pink-50 text-gray-800 min-h-screen flex flex-col">
+  <header class="bg-white shadow-md">
+   <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <a class="text-3xl font-playfair text-pink-600 font-semibold" href="#">
+     Dhara Puspita Zakaria 
+    </a>
+    <ul class="hidden md:flex space-x-8 text-gray-700 font-semibold">
+     <li>
+      <a class="hover:text-pink-500 transition" href="#about">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-500 transition" href="#gallery">
+       Gallery
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-500 transition" href="#stories">
+       Stories
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-500 transition" href="#contact">
+       Contact
+      </a>
+     </li>
+    </ul>
+    <button class="md:hidden text-pink-600 focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </nav>
+   <div class="hidden md:hidden bg-white shadow-md" id="mobile-menu">
+    <ul class="flex flex-col space-y-4 px-6 py-4 text-gray-700 font-semibold">
+     <li>
+      <a class="hover:text-pink-500 transition block" href="#about">
+       About
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-500 transition block" href="#gallery">
+       Gallery
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-500 transition block" href="#stories">
+       Stories
+      </a>
+     </li>
+     <li>
+      <a class="hover:text-pink-500 transition block" href="#contact">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <main class="flex-grow">
+   <section class="relative bg-pink-100">
+    <img alt="Silhouette of a romantic couple holding hands at sunset with soft pink and orange sky" class="w-full h-64 md:h-96 object-cover" height="500" src="https://storage.googleapis.com/a1aa/image/cf9ec550-9433-443a-f8a2-d736aad10bbc.jpg" width="1200"/>
+    <div class="absolute inset-0 bg-pink-900 bg-opacity-30 flex flex-col justify-center items-center text-center px-6">
+     <h1 class="text-white text-4xl md:text-6xl font-playfair font-semibold drop-shadow-lg">
+      Dhara Puspita Zakaria
+     </h1>
+     <p class="mt-4 text-pink-200 max-w-xl text-lg md:text-xl">
+      Wanita Terbaik Yang Aku Temui Tahun 2022 Hingga Sekarang.
+     </p>
+    </div>
+   </section>
+   <section class="container mx-auto px-6 py-16 max-w-4xl text-center" id="about">
+    <h2 class="text-3xl md:text-4xl font-playfair font-semibold text-pink-600 mb-6">
+     Pesan Ku Untukmu
+    </h2>
+    <p class="text-gray-700 text-lg md:text-xl leading-relaxed">
+     Semangat ya di sekolah barunya, semoga bisa nemu yang lebih baik serta terima semua kekuranganmu, nanti kalo masa nya kembali kita sama sama lagi yaa.
+    </p>
+   </section>
+   <section class="bg-white py-16" id="gallery">
+    <div class="container mx-auto px-6 max-w-5xl">
+     <h2 class="text-3xl md:text-4xl font-playfair font-semibold text-pink-600 mb-10 text-center">
+      Kenangan
+     </h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <img alt="Close-up of a delicate rose bouquet with soft natural lighting and pastel background" class="rounded-lg shadow-md object-cover w-full h-64" height="300" src="https://files.catbox.moe/j4nsm8.jpeg" width="400"/>
+      <img alt="Romantic candlelit dinner table setting with elegant glassware and soft glowing candles" class="rounded-lg shadow-md object-cover w-full h-64" height="300" src="https://files.catbox.moe/304b1o.jpeg" width="400"/>
+      <img alt="Couple walking hand in hand through a sun-dappled park with autumn leaves on the ground" class="rounded-lg shadow-md object-cover w-full h-64" height="300" src="https://files.catbox.moe/40aucq.jpeg" width="400"/>
+      <img alt="Two heart-shaped clouds floating gently in a clear blue sky with soft sunlight" class="rounded-lg shadow-md object-cover w-full h-64" height="300" src="https://files.catbox.moe/oex1c1.jpeg" width="400"/>
+     </div>
+    </div>
+   </section>
+   <section class="container mx-auto px-6 py-16 max-w-4xl" id="stories">
+    <h2 class="text-3xl md:text-4xl font-playfair font-semibold text-pink-600 mb-10 text-center">
+     Kisah Percintaan
+    </h2>
+    <div class="space-y-12">
+     <article class="bg-pink-50 rounded-lg p-6 shadow-md">
+      <h3 class="text-2xl font-playfair font-semibold text-pink-700 mb-3">
+       Awal Pertemuan
+      </h3>
+      <p class="text-gray-700 leading-relaxed">
+       Waktu pertama kali aku liat mu itu langsung suka, tapi aku gamau ungkapin, terus aku tanya sama arya yang pernah mabar sama mu dulu, kata dia kau udah punya cowo, dari situ aku makin ga yakin kalo mau ungkapin, terus aku mulai yang chat mu itu juga nomornya dapat dari anak cewe, terus lama kelamaan aku juga makin sadar kalo gabakalan di terima kalo aku ungkapin, singkatnya tiba tiba jundi chat aku terus bilang kalo kau juga suka sama ku, di situ aku ga percaya kan terus dia kirim ss an nya, aku kaget kau yang udah ada cowo bisa suka balik sama ku, mulai dari situ kita sering chattan terus akrab, sampe oktober ya? kalo ga salah atau agustus kita mulai hubungan, ya walaupun hts (itupun berarti bagiku), singkat cerita kita kena kasus karna pacaran.
+      </p>
+     </article>
+     <article class="bg-pink-50 rounded-lg p-6 shadow-md">
+      <h3 class="text-2xl font-playfair font-semibold text-pink-700 mb-3">
+       Pertengahan Hubungan
+      </h3>
+      <p class="text-gray-700 leading-relaxed">
+       Setelah kasus itu kita mulai perbaiki lagi, merasa jadi orang yang paling bahagia:), sampai aku masuk 1 les yang sama karna cuma pengen ketemuan (waktu hp ku masih di sita umi yasmin), singkatnya suatu malam waltu les aku pinjam hp mu, aku liat kau masih chttan sama naslul bahkan masih mabar dan kirim foto (kelakuanmu waktu hp ku di sita), di situ aku mara kan terus gamau ngomong sama mu sampe pulang, singkatnya kita baikan, lalu lompat ke awal kelas 8 (hp ku udh di balikin), di situ mulailah lagi hubungan chhttan bucin di kelas sampe pertengahan kelas 8, aku jumpa cinta jujur ya sebenernya aku ga suka, cuma chattan, terus kau tau kau bilang aku duain mu dll, ya emang ada si aku suka tapi dikit dan juga cuma chattan ga lebih, terus lanjutla sampai ada masalah yang aku perbuat sampe kau milih yang lain, di situ dirimu cuek gamau bales chat dll, singkatnya kau di duain dia (rafli) terus kau kirim vidio kalo kau gamon sama aku, aku juga nanggepin kalo aku juga gamon sama mu, dari situ kita mulai akrab lagi, sampe suatu malam kau bilang "aku pengen kau sama aku bukan sama dia,bisa ga kalo kau jauhin dia" terus aku setuju bahkan sebelum aku bilang ke dia kau malah udah bilang deluan, aku mikir apa emang kau sesuka itu (sory ke pdan), singkatnya kita mulai lembaran baru lagi.
+      </p>
+     </article>
+     <article class="bg-pink-50 rounded-lg p-6 shadow-md">
+      <h3 class="text-2xl font-playfair font-semibold text-pink-700 mb-3">
+       Akhir Pertemuan & Akhir Hubungan
+      </h3>
+      <p class="text-gray-700 leading-relaxed">
+       Banyak kenangan yang udah kita jalanin, susah senang bareng, call sampe 24 jam cerita hal hal yang ga mungkin terjadi, sampai bahas masa depan yang kita pengen (walaupun aku tau itu ga bakal terjadi) dan yaaa apa yang aku pikirkan sekarang jadi kenyataan, karna salahku kau lost interest, sekarang aku cuma bisa liat kau bagaimana kedepannya, stalk ig,tt mu sampai aku pun juga berharap kau bakal fast ress ternyata ngga (aku juga uda tau kau bakal hilang ketertarikan mu lagi).
+      </p>
+      </article>
+     <article class="bg-pink-50 rounded-lg p-6 shadow-md">
+      <h3 class="text-2xl font-playfair font-semibold text-pink-700 mb-3">
+       Keinginan Ku Untuk Mu
+      </h3>
+      <p class="text-gray-700 leading-relaxed">
+       Semoga bisa belajar dari kesalahan yang sebelumnya,  cari pasangan yang bisa menghargai mu, cari yang bisa menjamin kebahagiaan mu, cari juga yang bisa menghargai hal hal kecil.
+       
+       Aku cuma minta kau jaga kesehatan makanya di jaga, asma nya di jaga jangan sampe kumat, nanti kau bakal dapet yang lebih kok, kau itu cantik bahkan kau bisa dapat lebih dari yang aku punya, semangat ya di sekola barunya, aku juga gatau kau lanjut dimana, ya dimana pun lanjutannya tetep jaga kesehatan ya sayang.. maaf lantang kalo ga suka nanti di bilang aja yaa, sebenernya ga di jawab juga gapapa sih soalnya ini cuma mengutarakan isi hatiku aja, nanti pasti aku bakal kangen bgt sama mu, kalo nanti udah dapat rumah baru kabarin ya, walaupun mungkin aku balasnya lama, tapi aku selalu tunggu chat darimu walaupun aku di asrama, kalo nanti ulang tahun aku ucapinnya sebelum berangkat ya, kemungkinan aku gabakal bisa chat di hari spesial mu, nanti aku di asrama juga doain mu supaya bisa sehat terus, panjang umurnya serta bisa bahagia sampai ajalmu tiba, nanti ulang tahun ku gausa di ucapin aku cuma minta kau lupain aku, cuma itu permintaan ku pas ultah ku, juga hapus semua tentang ku, foto, contact, dll kalo barang yg aku kasih mau di buang juga gapapa, harga nya juga ga seberapa kok, nanti lain waktu kita ketemuan yaa kalo kau uda sama yang lain gausa juga gapapa, aku gamau rusak hubungan mu, kalo di tanya aku nyari lagi atau ga jawabannya ga,ya gimana pun semua first experience ku ada di kau,cuma kau. bahkan aku ga bakal lupain hal yang udah kita lakuin bareng", oh iya kalo ada apa apa curhat ke aku ya? aku balesnya pas pulang asrama tapi, tapi kalo gamau juga gapapa kok nanti aku kalo pulang asrama selalu liat nomor mu.
+       
+       Dari semalam aku selalu cek notif berharap chat ku di bales, bahkan di saat aku tau kau udah tidur juga aku sering chat notif, yaa aku juga tau salah ku, aku gamau maksa mu terus sama" lagi notif mu yang paling aku tunggu, nanti kalo aku uda ga chat" lagi pasti kau ga merasa terganggu, tunggu aja ya tanggal 14 udah deket kok nanti aku ga chat" mu lagi, pasti nanti aku bakal kangen sama mu pengen liat muka mu secara langsung, yaa itu tujuan ku cuci fotomu supaya aku ada temen curhatnya terus ada temen tidur juga, nanti kalo kau udah ada rumah baru aku janji bakal berhenti berharap sepenuhnya.
+       
+       makasih ya udah baca sampai habis:)
+       i love you🫶🏻
+      </p>
+     </article>
+    </div>
+   </section>
+   <section class="bg-pink-100 py-16" id="contact">
+    <div class="container mx-auto px-6 max-w-lg">
+     <h2 class="text-3xl md:text-4xl font-playfair font-semibold text-pink-600 mb-8 text-center">
+      Get in Touch
+     </h2>
+     <form action="#" class="bg-white rounded-lg shadow-md p-8 space-y-6" method="POST">
+      <div>
+       <label class="block text-gray-700 font-semibold mb-2" for="name">
+        Name
+       </label>
+       <input class="w-full border border-pink-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-400" id="name" name="name" placeholder="Your name" required="" type="text"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-semibold mb-2" for="email">
+        Email
+       </label>
+       <input class="w-full border border-pink-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-400" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-semibold mb-2" for="message">
+        Message
+       </label>
+       <textarea class="w-full border border-pink-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-400" id="message" name="message" placeholder="Write your message here..." required="" rows="4"></textarea>
+      </div>
+      <button class="w-full bg-pink-600 text-white font-semibold py-3 rounded-md hover:bg-pink-700 transition" type="submit">
+       Send Message
+      </button>
+     </form>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-white border-t border-pink-200 py-6">
+   <div class="container mx-auto px-6 text-center text-gray-600 text-sm">
+    © 2025 rifky al kamil For dhara puspita zakaria.
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
